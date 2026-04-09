@@ -1,20 +1,20 @@
 import SectionNumber from './SectionNumber';
 
 const screens = [
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/dd7649554_SplashScreen.png', label: 'Splash Screen' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/61c07e96e_IntroScreen.png', label: 'Welcome Onboarding' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/d7dee9d8b_IntroScreen1.png', label: 'Quran Intro' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/e5b4d2b3f_IntroScreen2.png', label: 'Tasbih Intro' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/65780be87_IntroScreen3.png', label: 'Radio Intro' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/dd5a565d7_HomeScreen.png', label: 'Home - Quran List' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/3f3aa9193_HomeScreen1.png', label: 'Home - Quran Detail' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/5e023b183_SouraDetailsScreen.png', label: 'Surah Details' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/3e79a7afa_SouraDetailsScreen1.png', label: 'Al-Fatiha Verses' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/bc4b3e102_HadethScreen.png', label: 'Hadith Screen' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/28c18b08c_SebhaScreen.png', label: 'Azkar & Tasbih' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/af94e9e29_RadioScreen.png', label: 'Quran Radio' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/35a92488a_TimeScreen.png', label: 'Prayer Times' },
-  { src: 'https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/f655c8031_TimeScreen1.png', label: 'Namaz Timings' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-1/600/1200', label: 'Splash Screen' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-2/600/1200', label: 'Welcome Onboarding' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-3/600/1200', label: 'Quran Intro' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-4/600/1200', label: 'Tasbih Intro' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-5/600/1200', label: 'Radio Intro' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-6/600/1200', label: 'Home - Quran List' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-7/600/1200', label: 'Home - Quran Detail' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-8/600/1200', label: 'Surah Details' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-9/600/1200', label: 'Al-Fatiha Verses' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-10/600/1200', label: 'Hadith Screen' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-11/600/1200', label: 'Azkar & Tasbih' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-12/600/1200', label: 'Quran Radio' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-13/600/1200', label: 'Prayer Times' },
+  { src: 'https://picsum.photos/seed/sukoon-screen-14/600/1200', label: 'Namaz Timings' },
 ];
 
 export default function ScreenShowcase() {

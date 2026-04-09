@@ -49,7 +49,7 @@ export default function HeroSection() {
         {/* Preview image */}
         <div className="fade-up mb-8">
           <img
-            src="https://media.base44.com/images/public/user_69d6fab1a980e83edf892fd6/f0d64c500_Perviewfile.png"
+            src="https://picsum.photos/seed/sukoon-preview/1600/900"
             alt="Sukoon app preview showing multiple screens"
             className="w-full max-w-4xl rounded-2xl"
             style={{ border: '1px solid rgba(0,0,0,0.07)' }}
