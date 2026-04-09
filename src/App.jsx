@@ -8,6 +8,8 @@ import UserNotRegisteredError from '@/components/ui/UserNotRegisteredError';
 // Add page imports here
 import Home from './pages/Home';
 
+const routerBase = import.meta.env.BASE_URL || '/';
+
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
 
@@ -59,7 +61,7 @@ function App() {
   return (
     <AuthProvider>
       <QueryClientProvider client={queryClientInstance}>
-        <Router>
+        <Router basename={routerBase}>
           <AuthenticatedApp />
         </Router>
         <Toaster />
