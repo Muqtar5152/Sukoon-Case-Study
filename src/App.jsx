@@ -8,7 +8,12 @@ import UserNotRegisteredError from '@/components/ui/UserNotRegisteredError';
 // Add page imports here
 import Home from './pages/Home';
 
-const routerBase = import.meta.env.BASE_URL || '/';
+const repoBasePath = '/Sukoon-Case-Study';
+const envBasePath = import.meta.env.BASE_URL || '/';
+const routerBase =
+  typeof window !== 'undefined' && window.location.pathname.startsWith(repoBasePath)
+    ? repoBasePath
+    : envBasePath;
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
