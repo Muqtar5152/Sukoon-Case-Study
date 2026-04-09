@@ -11,14 +11,7 @@ Portfolio/case-study site built with React + Vite.
 npm install
 ```
 
-3. Create a `.env.local` file:
-
-```bash
-VITE_BASE44_APP_ID=your_app_id
-VITE_BASE44_APP_BASE_URL=your_backend_url
-```
-
-4. Start development server:
+3. Start development server:
 
 ```bash
 npm run dev
