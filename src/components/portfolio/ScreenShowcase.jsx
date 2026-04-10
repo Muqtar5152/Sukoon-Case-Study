@@ -1,20 +1,20 @@
 import SectionNumber from './SectionNumber';
 
 const screens = [
-  { src: 'https://picsum.photos/seed/sukoon-screen-1/600/1200', label: 'Splash Screen' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-2/600/1200', label: 'Welcome Onboarding' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-3/600/1200', label: 'Quran Intro' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-4/600/1200', label: 'Tasbih Intro' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-5/600/1200', label: 'Radio Intro' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-6/600/1200', label: 'Home - Quran List' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-7/600/1200', label: 'Home - Quran Detail' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-8/600/1200', label: 'Surah Details' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-9/600/1200', label: 'Al-Fatiha Verses' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-10/600/1200', label: 'Hadith Screen' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-11/600/1200', label: 'Azkar & Tasbih' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-12/600/1200', label: 'Quran Radio' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-13/600/1200', label: 'Prayer Times' },
-  { src: 'https://picsum.photos/seed/sukoon-screen-14/600/1200', label: 'Namaz Timings' },
+  { src: '/images/sukoon/screen-01-splash.png', label: 'Splash Screen' },
+  { src: '/images/sukoon/screen-02-welcome-onboarding.png', label: 'Welcome Onboarding' },
+  { src: '/images/sukoon/screen-03-quran-intro.png', label: 'Quran Intro' },
+  { src: '/images/sukoon/screen-04-tasbih-intro.png', label: 'Tasbih Intro' },
+  { src: '/images/sukoon/screen-05-radio-intro.png', label: 'Radio Intro' },
+  { src: '/images/sukoon/screen-06-home-quran-list.png', label: 'Home - Quran List' },
+  { src: '/images/sukoon/screen-07-home-quran-detail.png', label: 'Home - Quran Detail' },
+  { src: '/images/sukoon/screen-08-surah-details.png', label: 'Surah Details' },
+  { src: '/images/sukoon/screen-09-al-fatiha-verses.png', label: 'Al-Fatiha Verses' },
+  { src: '/images/sukoon/screen-10-hadith.png', label: 'Hadith Screen' },
+  { src: '/images/sukoon/screen-11-azkar-tasbih.png', label: 'Azkar & Tasbih' },
+  { src: '/images/sukoon/screen-12-quran-radio.png', label: 'Quran Radio' },
+  { src: '/images/sukoon/screen-13-prayer-times.png', label: 'Prayer Times' },
+  { src: '/images/sukoon/screen-14-namaz-timings.png', label: 'Namaz Timings' },
 ];
 
 export default function ScreenShowcase() {
