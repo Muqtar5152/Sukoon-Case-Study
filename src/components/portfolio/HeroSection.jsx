@@ -1,4 +1,5 @@
 export default function HeroSection() {
+  const imageBase = import.meta.env.BASE_URL;
   const tags = [
     'UX Research', 'Islamic Product', 'Habit Tracker',
     'Mobile App', '4 Weeks', 'Faith-Centric Design'
@@ -49,7 +50,7 @@ export default function HeroSection() {
         {/* Preview image */}
         <div className="fade-up mb-8">
           <img
-            src="/images/sukoon/preview.png"
+            src={`${imageBase}images/sukoon/preview.png`}
             alt="Sukoon app preview showing multiple screens"
             className="w-full max-w-4xl rounded-2xl"
             style={{ border: '1px solid rgba(0,0,0,0.07)' }}
